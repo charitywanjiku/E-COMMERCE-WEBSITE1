@@ -1,0 +1,75 @@
+{
+    "stock":[
+        {
+        "id":1,
+        "name":"Dress",
+        "image":"./PICTURES/WhatsApp Image 2024-01-16 at 1.51.34 PM (1).jpeg",
+        "description":"cotton dress",
+        "price":"15USD"
+    },
+    {
+        "id":2,
+        "name":"Short",
+        "image":"./PICTURES/WhatsApp Image 2024-01-17 at 11.03.22 AM (1).jpeg",
+        "description":"cargo",
+        "price":"10USD"
+    },
+    {
+        "id":3,
+        "name":"Shirt",
+        "image":"./PICTURES/WhatsApp Image 2024-01-16 at 1.52.05 PM (copy).jpeg",
+        "description":"official",
+        "price":"20USD"
+    },
+    {
+        "id":4,
+        "name":"T-shirt",
+        "image":"./PICTURES/WhatsApp Image 2024-01-16 at 1.52.17 PM.jpeg",
+        "description":"cotton",
+        "price":"10USD"
+    },
+    {
+        "id":5,
+        "name":"Jacket",
+        "image":"./PICTURES/WhatsApp Image 2024-01-16 at 1.52.32 PM (copy).jpeg",
+        "description":"heavy",
+        "price":"35USD"
+    },
+    {
+        "id":6,
+        "name":"Trousers",
+        "image":"./PICTURES/WhatsApp Image 2024-01-16 at 1.52.44 PM.jpeg",
+        "description":"jeans",
+        "price":"10USD"
+    },
+    {
+        "id":7,
+        "name":"Skirt",
+        "image":"./PICTURES/WhatsApp Image 2024-01-16 at 1.53.11 PM.jpeg",
+        "description":"leather",
+        "price":"10USD"
+    },
+    {
+        "id":8,
+        "name":"Shoes",
+        "image":"./PICTURES/WhatsApp Image 2024-01-16 at 1.53.34 PM.jpeg",
+        "description":"nickeys",
+        "price":"35USD"
+    },
+    {
+        "id":9,
+        "name":"Bags",
+        "image":"./PICTURES/WhatsApp Image 2024-01-16 at 1.54.54 PM.jpeg",
+        "description":"2in1.leather",
+        "price":"15USD"
+    },
+    {
+        "id":10,
+        "name":"Caps",
+        "image":"./PICTURES/WhatsApp Image 2024-01-16 at 2.10.24 PM.jpeg",
+        "description":"good quality athlete",
+        "price":"37USD"
+    }
+]
+}
+
