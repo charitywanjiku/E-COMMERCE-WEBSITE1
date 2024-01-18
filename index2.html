@@ -1,27 +1,55 @@
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IN STOCK ITEMS</title>
     <link rel="stylesheet" href="index2.css">
-    <script src="index2.js"defer></script>
-    
+    <script src="index2.js" defer></script>
 </head>
 <body>
-    <header> FEATURED PRODUCTS</header>
-    <h1>IN STOCK ITEMS</h1>
-    <div class="button">
-        <a href="index1.html"><button class="btn">
-            PREVIOUS
-          </button></a>
-        
-           </div>
-    <div class="product-container" id="productContainer"></div>
+    <header>
+        <h1>IN STOCK ITEMS</h1>
+        <!-- Display the cart count -->
+        <span id="cartCount">0</span> 
+    </header>
+    
+    <!-- Add a cart container -->
+    <div class="cart-container" id="cartContainer">
+        <!-- Cart content will be dynamically added here -->
     </div>
-      <a href="index1.html">
-        <div class="button">
-            <a href="index3.html"><button class="btn">
-                NEXTPAGE
-              </button></a>
+
+    <!-- Optional: Display total price -->
+    <div id="totalPrice">Total: $0.00</div>
+    <!-- Add a div to display the total price -->
+<!-- <p id="totalPrice">Total Price: 0</p> -->
+
+
+    <!-- Add this button where you display each product -->
+    <!-- <button onclick="addToCart(product)">Add to Cart</button> -->
+
+    <!-- Optional: Add a "Remove from Cart" button for each product in the cart -->
+    <div class="product-container" id="productContainer">
+        <!-- Product display will be dynamically added here -->
+    </div>
+
+    <div class="button">
+        <a href="index1.html">
+            <button class="btn">PREVIOUS</button>
+        </a>
+    </div>
+
+    <!-- Updated: "Remove from Cart" button -->
+    <div class="button">
+        <!-- <button onclick="removeFromCart(product)">Remove from Cart</button> -->
+    </div>
+
+    <div class="button">
+        <a href="index3.html">
+            <button class="btn">NEXTPAGE</button>
+        </a>
+    </div>
 </body>
 </html>
+
